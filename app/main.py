@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route("/")
 def home_view():
     return '''
-        <h1>Welcome to Geeks for Geeks</h1>
+        <h1>Welcome to This app</h1>
         <form action="/submit" method="post">
             <input type="text" name="text_input" placeholder="Enter text here">
             <input type="submit" value="Submit">
